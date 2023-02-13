@@ -5,7 +5,7 @@ const addNotes = function(title,body){
     const notes = loadNotes()
     const duplicateNote = notes.find((note)=> note.title === title)
 
-    //debugger
+    debugger
     
     if(!duplicateNote){
         notes.push({
